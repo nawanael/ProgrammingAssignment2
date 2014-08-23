@@ -4,9 +4,9 @@
 ## computes the inverse of the special "matrix" returned by the first function.
 
 ## makeCacheMatrix: This function creates a special "matrix", which is really a
-## @@list@@ containing 
-## different functions to set the value of the matrix, get the value of the
-## matrix, set the value of the inverse, get the value of the inverse.
+## list containing different functions to set the value of the matrix, get the
+## value of the matrix, set the value of the inverse, get the value of the
+## inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
       inv <- NULL
